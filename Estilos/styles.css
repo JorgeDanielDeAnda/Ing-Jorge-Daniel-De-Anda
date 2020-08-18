@@ -1,0 +1,219 @@
+/*--------------------------Seccción Principal-----------------------------*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+.lista a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista{
+    display: flex;
+}
+
+.titular{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.titular a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0px;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.contenedor-sobremi a, .titular a{
+    font-size: 14px;
+    background: #5cb8ff;
+    padding: 20px 30px 20px 30px;
+    color: white;
+}
+
+header{
+    background: url(../Imagenes/fondo2.jpg);
+    height: 100vh; /* Viewport Height*/
+    background-size: cover; /*cubre todo el fondo de la ventana con la img*/
+}
+
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+/*-----------------------Sección sobre mi--------------------------------*/
+
+h3{
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+    padding-top: 50px;
+}
+
+.contenedor-sobremi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-parrafo-Boton{
+    width: 42%;
+}
+
+.contenedor-parrafo-Boton p{
+    font-size: 18px;
+}
+
+.contenedor-parrafo-Boton a{
+    font-size: 14px;
+    background: #5cb8ff;
+    padding: 20px 30px 20px 30px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+/*-----------------------Sección Servicios--------------------------------*/
+
+.contenedor-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicio{
+    width: 30%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    color: white;
+}
+
+.DiseñoWeb{
+    background: #00AFDA;
+}
+
+.DiseñoResponsivo{
+    background: #1F6AD8;
+}
+
+.PruebasCalidad{
+    background: #00AFDA;
+}
+
+.contenedor-servicios h4{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.contenedor-servicios p{
+    text-align: justify;
+    font-size: 18px;
+    height: 210px;
+}
+
+.servicio img{
+    float: right;
+}
+
+/*----------------------Sección Frameworks Usados--------------------------*/
+
+.contenedor-FrameworksUsados{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.lista-fu{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+
+/*-------------------------Sección Contacto--------------------------------*/
+
+footer{
+    background: black;
+    color: white;
+}
+
+footer a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+footer h3{
+    padding: 0px;
+}
+
+.contenedor-Info{
+    margin-left: 180px;
+    width: 55%;
+}
+
+.contenedor-Contacto{
+    margin-right: 50px;
+}
+
+.contenedor-Footer{
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.contenedor-Linkedin{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.contenedor-Facebook{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.contenedor-Github{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.contenedor-Numero{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
